@@ -6,14 +6,11 @@ public class Average {
 
         System.out.println("Введите первое число диапозона");
 
-        Double number1 = scanner.nextDouble();
+        double c = scanner.nextDouble();
 
         System.out.println("Введите второе число диапозона");
 
-        Double number2 = scanner.nextDouble();
-
-        double c = number1;
-        double d = number2;
+        double d = scanner.nextDouble();
         double sum = 0;
         double sumEven = 0;
         double counter = 0;
