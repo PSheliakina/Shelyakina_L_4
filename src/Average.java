@@ -4,11 +4,11 @@ public class Average {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Введите первое число диапозона");
+        System.out.println("Введите первое число диапазона");
 
         double c = scanner.nextDouble();
 
-        System.out.println("Введите второе число диапозона");
+        System.out.println("Введите второе число диапазона");
 
         double d = scanner.nextDouble();
         double sum = 0;
