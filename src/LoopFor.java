@@ -3,8 +3,7 @@ public class LoopFor {
     public static void main(String[] args) {
 
         for (int i = 100; i >= 1; i--) {
-            int getMult = getMult(i);
-            if (getMult == 0) {
+            if (getMult(i) == 0) {
                 System.out.print(" " + i);
             }
 

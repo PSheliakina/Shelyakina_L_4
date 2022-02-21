@@ -23,12 +23,12 @@ public class Average {
             sum = sum + i;
         }
 
-        double resultEven = sumEven;
+        double resultEven = sumEven / counter;
         double result = sum / ((d - c) + 1);
 
         System.out.println("Среднее арифметическое всех чисел = " + result);
 
-        System.out.println("Среднее арифметичесткое четных чисел = " + resultEven / counter);
+        System.out.println("Среднее арифметичесткое четных чисел = " + resultEven);
 
     }
 
