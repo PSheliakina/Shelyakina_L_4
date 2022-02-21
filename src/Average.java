@@ -4,18 +4,18 @@ public class Average {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Введите первое число диапазона");
+        System.out.println("Введите первое число диапазона, число должно быть целым");
 
-        double c = scanner.nextDouble();
+        int c = scanner.nextInt();
 
-        System.out.println("Введите второе число диапазона");
+        System.out.println("Введите второе число диапазона, число должно быть целым");
 
-        double d = scanner.nextDouble();
-        double sum = 0;
-        double sumEven = 0;
-        double counter = 0;
+        int d = scanner.nextInt();
+        int sum = 0;
+        int sumEven = 0;
+        int counter = 0;
 
-        for (double i = c; i <= d; i++) {
+        for (int i = c; i <= d; i++) {
             if (i % 2 == 0) {
                 sumEven = sumEven + i;
                 counter++;
@@ -23,8 +23,8 @@ public class Average {
             sum = sum + i;
         }
 
-        double resultEven = sumEven / counter;
-        double result = sum / ((d - c) + 1);
+        double resultEven = (double)sumEven / counter;
+        double result = (double)sum / ((d - c) + 1);
 
         System.out.println("Среднее арифметическое всех чисел = " + result);
 
